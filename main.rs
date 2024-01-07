@@ -7,8 +7,6 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..=100); // Assign variable 'secret_number' a random number between 1:100
 
-    //println!("The secret number is: {secret_number}");
-
     loop { // Create a loop for User guessing
 
         println!("Please input your guess.");
